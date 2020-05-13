@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+header {
+  display: inline;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+
+h1 {
+  text-shadow: 2px 2px #292727;
+}
+
+h2 {
+  color: #ec920cd2
+}
+
+h3 {
+  color: #ec920cd2
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #ec920cd2
+}
+
+.red {
+  color: red;
+}
+
+.skyblue-bg {
+  background-color: skyblue;
+}
+
+.text1 {
+  text-align: justify;
+  }
+
+ .txtshadow {
+    text-shadow: 2px 2px 7px #111111;
+    background-color: #cccccc;
+    color: #ffffff;
+ }
+
+ .profile header {
+  text-align: center;
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #ec920cd2;
+  text-align: center;
+  font-weight: bold;
+}
+
+.left-content {
+  float: left
+}
+
+.right-content {
+  float: right
+}
+
+footer {
+}
+
+.content {
+  max-width: 800px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: deeppink;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav {
+  background-color: #ec920cd2;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+.featured-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.profile-img {
+  width: 200px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
+.jumbotron {
+  font-size: 20px;
+  padding: 60px;
+  background-color: #e2af51;
+  text-align: center;
+  color: white;
+}
+
+#content {
+  float: left;
+  width: 75%;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+} 
+
+
+aside {
+  float: right;
+   width: 23%;
+   padding-left: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  #content,
+  aside {
+      width: 100%;
+      padding: 0;
+  }
+}
